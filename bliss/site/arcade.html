@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FunTastic</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="booking/css/booking.css">
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/cddce9374d.js" crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="booking/js/booking.js"></script>
+
+<script>
+ $(document).ready(function(){
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+
+  }); 
+</script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+<![endif]-->
+</head>
+
+<body>
+<!--==============================
+              header
+=================================-->
+<header>
+<!--==============================
+            Stuck menu
+=================================-->
+  <section id="stuck_container">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>  
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+                <li class="current"><a href="index.html">Início</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="../colorlib-search-2/index.html">Ofertas</a></li>
+                <li><a href="index-4.html">Reservas</a></li>
+             </ul>
+            </nav>        
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+</header>        
+
+<!--=====================
+          Content
+======================-->
+<section class="content"><div class="ic">More Website Templates @ TemplateMonster.com - July 30, 2014!</div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_8">
+        <h2>Arcade</h2>
+        <img src="images/arcade.jfif" alt="" class="img_inner fleft inn__1">
+        <div class="extra_wrapper">
+          <div class="text1 tx__1"><a href="#">Reserve Já</a></div>
+          <p>Arcade </p>
+          <p>Imagine uma tarde divertida e animada na nossa arcade para festas infantis!
+            Os pequenos convidados ficarão encantados com a nossa variedade de jogos eletrônicos, incluindo jogos clássicos como Pac-Man e Street Fighter, bem como jogos mais modernos como Dance Dance Revolution e Guitar Hero.
+            Também temos uma mesa de air hockey, uma piscina de bolas e até mesmo um simulador de realidade virtual para os mais aventureiros.
+            Os pais podem relaxar enquanto os seus filhos se divertem, com uma área de descanso e um bar com refrigerantes e lanches disponíveis.
+            Nossa equipe altamente treinada estará lá para garantir que todos tenham um dia divertido e seguro.
+            Invista na nossa arcade para a próxima festa infantil e garanta uma tarde inesquecível de diversão para toda a família!.</p>
+          Localização: Porto
+          <br>
+          Número de convidados: até 20
+          <br>
+          Duração: 3h a 4h
+          <br>
+          <br>
+          <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></i>
+
+        </div>
+        <div class="clear"></div>
+        <h2>Avaliações</h2>
+        <div class="text1 tx__1"><a href="#">"Minha filha e seus amigos passaram horas se divertindo na arcade da festa de aniversário dela. A equipe foi incrível e garantiu que todos estivessem seguros e divertidos. Altamente recomendado!"</a></div>
+        <p>""Fomos à arcade para a festa de aniversário do meu filho e ficamos muito satisfeitos com a variedade de jogos e atividades disponíveis. O preço também foi muito razoável. Definitivamente voltaremos no futuro!"</p>
+        <p>"A arcade foi o local perfeito para a festa de aniversário da minha filha. Todos os convidados se divertiram muito e a equipe foi incrível em garantir que todos estivessem seguros. Obrigado por uma tarde incrível!" </p>
+        "Não poderia ter pedido uma festa de aniversário melhor para meu filho do que na arcade. Ele e seus amigos se divertiram muito e eu apreciei o fato de haver opções de lanches saudáveis ​​disponíveis. Altamente recomendado!"<br>
+        <a href="#" class="btn">more</a>
+      </div>
+      <div class="grid_4">
+        <h2>Reserve já</h2>
+        <div class="form_title color1">
+        Preencha Já</div>
+        <form id="bookingForm">
+          <div class="fl1">
+            <select name="Children"  data-class="tmSelect tmSelect2" data-constraints="" style="width: 500px; height: 50px;">
+                <option>Selecione entertenimento</option>
+                <option>Jogos de realidade aumentada</option>
+                <option>Palhaços</option>
+                <option>Mágicos</option>
+                <option>Princesas</option>
+            </select>
+            
+            </div>   
+         <div class="clear f_sep1"></div>
+          <strong class="dt">Check-in</strong>
+         <label class="tmDatepicker">
+          <input type="text" name="Date"  placeHolder='10/05/2014' data-constraints="@NotEmpty @Required @Date">
+        </label>
+        <div class="clear"></div>
+        <div class="fl1 ">
+        <em>Festa</em>
+        <select name="Adults" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+            <option>- de 10</option>
+            <option>10 a 20</option>
+        </select>
+       
+        
+        </div>
+        <div class="clear"></div>
+        
+        <div class="tmTextarea">
+            <textarea name="Message" placeHolder="Indicações" ></textarea>
+        </div>
+        <div class="ta__right">
+        <a href="#" class="btn" data-type="reset">Recomeçar</a>
+        <a href="pagamento.html" class="btn">200 €</a>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">  
+        <div class="socials">
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google-plus"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        <div class="copyright"><span class="brand">FunTastic </span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <div>Patrocinado por <a href="http://www.templatemonster.com/" rel="nofollow">TripAdvisor</a></div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</footer> 
+  <script>
+  $(function (){
+        $('#bookingForm').bookingForm({
+            ownerEmail: '#'
+        });
+    })
+    $(function() {
+   $('#bookingForm input, #bookingForm textarea').placeholder();
+  });
+    
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,49 @@
+body {
+    background-image: url('../Imagens/Login/background.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #fe7a15
+}
+
+.profile-button {
+    background: #fe7a15;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #3011bc
+}
+
+.profile-button:focus {
+    background: #3011bc;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #3011bc;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #3011bc;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #fe7a15;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #3011bc;
+    border-radius: 6%;
+}

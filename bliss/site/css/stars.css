@@ -1,0 +1,68 @@
+#rating-system {
+    /* style the container element */
+  }
+  
+  #rating-system input {
+    /* hide the radio buttons */
+    display: none;
+  }
+  
+  #rating-system label {
+    /* style the stars */
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 3em;
+    color: #ccc;
+  }
+  
+  #rating-system label:before,
+  #rating-system label:after {
+    /* create the star shape using pseudo-elements */
+    content: "\2605";
+    position: absolute;
+  }
+  
+  #rating-system label:before {
+    /* style the left half of the star */
+    left: 0;
+    top: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  #rating-system label:after {
+    /* style the right half of the star */
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  #rating-system input:checked ~ label {
+    /* style the selected star */
+    color: #ff0;
+  }
+  
+  #rating-system label:before {
+    /* style the left half of the star using the "fa-regular" class */
+    content: "\f006";
+    font-family: "Font Awesome 5 Regular";
+    left: 0;
+    top: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  #rating-system label:after {
+    /* style the right half of the star using the "fa-solid" class */
+    content: "\f005";
+    font-family: "Font Awesome 5 Solid";
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+    /*
+  
